@@ -3,6 +3,14 @@ html, body, a, input, span, button {
     font-family: 'Apple SD Gothic Neo',arial,sans-serif;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
 li {
     font-size: small;
 }
