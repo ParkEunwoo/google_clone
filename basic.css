@@ -1,0 +1,54 @@
+
+html, body, a, input, span, button {
+    font-family: 'Apple SD Gothic Neo',arial,sans-serif;
+}
+
+li {
+    font-size: small;
+}
+
+.login {
+    font-weight: 700;
+}
+
+.btn {
+    font-size: .875rem;
+    font-weight: 400;
+}
+
+.country {
+    font-size: .9375rem;
+}
+
+.tool {
+    background: url("http://www.gstatic.com/inputtools/images/tia.png") center no-repeat;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.voice {
+    background: url("http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png") no-repeat center;
+    background-size: 1.5rem;
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+.grid-menu {
+    width: 30px;
+    height: 30px;
+    padding: 6px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1px;
+}
+
+.grid-menu span {
+    display: inline-block;
+    width: 4px;
+    height: 4px;
+    background: gray;
+}
