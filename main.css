@@ -11,7 +11,7 @@ header, section, footer {
 }
 
 header {
-    flex: 0 0 30px;
+    flex: 0 0 auto;
 }
 
 section {
@@ -19,5 +19,22 @@ section {
 }
 
 footer {
-    flex: 0 0 30px;
+    flex: 0 0 auto;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1.2em;
+}
+
+header nav ul li {
+    margin: 1.2em .6em;
+}
+
+.login {
+    color: white;
+    background: #4285f4;
+    padding: .6em 1em;
 }
