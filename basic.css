@@ -6,6 +6,10 @@ html, body, a, input, span, button {
     font-family: 'Apple SD Gothic Neo',arial,sans-serif;
 }
 
+input {
+    font-size: 1rem;
+}
+
 ul {
     list-style: none;
 }
