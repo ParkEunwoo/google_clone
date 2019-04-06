@@ -51,7 +51,7 @@ li {
 .grid-menu {
     width: 30px;
     height: 30px;
-    padding: 6px;
+    padding: 7px;
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
