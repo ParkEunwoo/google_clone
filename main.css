@@ -6,10 +6,6 @@ body {
     flex-direction: column;
 }
 
-section {
-    border: 1px solid black;
-}
-
 header {
     flex: 0 0 auto;
 }
@@ -55,6 +51,16 @@ header nav ul .text:hover {
 .grid-menu:hover >span{
     background: black;
 }
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
 
 footer {
     color: rgba(0,0,0,.54);
