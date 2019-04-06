@@ -88,11 +88,13 @@ section .search input {
 
 section .search .tool {
     position: relative;
+    cursor: pointer;
 }
 
 section .search .voice {
     margin-left: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 section .search .tool:hover .tool-box {
@@ -146,6 +148,7 @@ section .btn {
     padding: .28em 1.2em;
     line-height: 27px;
     margin: 0 4px;
+    cursor: pointer;
 }
 
 section .btn:hover {
@@ -192,6 +195,7 @@ footer {
 
 .info ul li {
     margin: 0 1.05em;
+    cursor: pointer;
 }
 
 .info ul li:nth-child(1) {
