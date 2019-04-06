@@ -1,2 +1,23 @@
 @import "reset.css";
 @import "basic.css";
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+header, section, footer {
+    border: 1px solid black;
+}
+
+header {
+    flex: 0 0 30px;
+}
+
+section {
+    flex: 1 0 auto;
+}
+
+footer {
+    flex: 0 0 30px;
+}
