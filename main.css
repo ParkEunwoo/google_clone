@@ -56,11 +56,67 @@ section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
 }
 
+section .logo {
+    margin: 26px;
+}
 
+section .search {
+    flex: 0 0 auto;
+    border: 1px solid #dfe1e5;
+    border-radius: 1.5em;
+    display: flex;
+    width: 584px;
+    box-sizing: border-box;
+    padding: .66em .8em;
+    padding-left: 1.2em;
+    margin-bottom: 26px;
+}
 
+section .search:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
 
+section .search input {
+    border: none;
+    margin-right: auto;
+    width: 100%;
+}
+
+section .search .voice {
+    margin-left: 20px;
+}
+
+section .search input:focus {
+    outline: none;
+
+}
+section .search input:focus .search {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+}
+
+section .btn {
+    background: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    padding: .28em 1.2em;
+    line-height: 27px;
+    margin: 0 4px;
+}
+
+section .btn:hover {
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+section .btn:focus {
+    outline: none;
+    border: 1px solid #4d90fe;
+}
 
 footer {
     color: rgba(0,0,0,.54);
