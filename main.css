@@ -105,3 +105,11 @@ footer {
 .info ul li:nth-last-child(1) {
     margin-right: 2.3em;
 }
+
+.info ul li:hover {
+    text-decoration: underline;
+}
+
+.info ul li:active {
+    color: #dd4b39;
+}
